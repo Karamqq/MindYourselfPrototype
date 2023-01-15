@@ -57,7 +57,7 @@ public class SleepActivity extends AppCompatActivity {
             //checks if input is in the correct format
             int[] sleepHours = parseSleepHoursInput();
             if (sleepHours == null) {
-                Toast.makeText(SleepActivity.this, "Invalid input. Please enter a valid integer for each day.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SleepActivity.this, "Invalid input. Please enter a valid hour value for each day of the week, seperated by Commas", Toast.LENGTH_SHORT).show();
                 return;
             }
 

@@ -31,7 +31,7 @@ public class QuotesActivity extends AppCompatActivity {
         //accessing string resources and setting them to Strings
         String quote = getResources().getString(R.string.quote);
         String quote1 = getResources().getString(R.string.quote1);
-        String quote2= getResources().getString(R.string.quote2);
+        String quote2 = getResources().getString(R.string.quote2);
         String quote3 = getResources().getString(R.string.quote3);
         String quote4 = getResources().getString(R.string.quote4);
         String quote5 = getResources().getString(R.string.quote5);
@@ -42,13 +42,12 @@ public class QuotesActivity extends AppCompatActivity {
         String quote10 = getResources().getString(R.string.quote10);
 
 
-
         //sets the text view to the text view
         TextView textView = findViewById(R.id.text_quotes);
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.animation);
-        String[] words = {quote, quote1,quote2,quote3,quote4,quote5,quote6,quote7,quote8,quote9,quote10};
-        int[] colors = { R.color.purple_200,R.color.purple_500,R.color.purple_700};
-        int[] bcolors = {R.color.gray, R.color.silver, R.color.LightSlateGray, R.color.DarkGray,R.color.LightGrey};
+        String[] words = {quote, quote1, quote2, quote3, quote4, quote5, quote6, quote7, quote8, quote9, quote10};
+        int[] colors = {R.color.purple_200, R.color.purple_500, R.color.purple_700};
+        int[] bcolors = {R.color.gray, R.color.silver, R.color.LightSlateGray, R.color.DarkGray, R.color.LightGrey};
 
 
         //on click, sets random quote, colour from selection and runs animation
@@ -80,9 +79,6 @@ public class QuotesActivity extends AppCompatActivity {
         });
 
 
-
-
-
-        }
+    }
 
 }
