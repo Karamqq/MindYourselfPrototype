@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.howto.HowToUseFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            ]<!--card with details on mindyourself mission -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/missionCard"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="69dp"
+                        android:background="@drawable/circlebackgroundblack"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_create_24"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/missionTitle"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/LightGrey"></View>
+
+                    <TextView
+                        android:id="@+id/ourMission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/mission"
+                        android:textColor="@color/DarkGray"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- card with details on author of mind yourself -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/authorCard"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/circlebackgroundblack"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_assignment_ind_24"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/author"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"></TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/LightGrey"></View>
+
+                    <TextView
+                        android:id="@+id/course"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/course"
+                        android:textColor="@color/DarkGray"></TextView>
+
+                    <TextView
+                        android:id="@+id/contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/contact"
+                        android:textColor="@color/DarkGray"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- card with details on mind yourself promise -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/promiseCard"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/circlebackgroundblack"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_tag_faces_24"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/promiseTitle"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"></TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/LightGrey"></View>
+
+                    <TextView
+                        android:id="@+id/ourMissn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/promise"
+                        android:textColor="@color/DarkGray"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/blankCard"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

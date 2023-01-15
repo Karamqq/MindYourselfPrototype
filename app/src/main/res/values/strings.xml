@@ -1,0 +1,75 @@
+<resources>
+    //Application name
+        <string name="app_name">Mind Yourself</string>
+    //Nav Bar Content
+    <string name="title_home">Home</string>
+    <string name="title_howto">How To Use</string>
+    <string name="title_features">Features</string>
+    <string name="title_aboutus">About Us</string>
+    //Featurespage Content
+    <string name="title_music">Music</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_quotes">Quotes</string>
+    <string name="title_sleep">Sleep</string>
+    <string name="featuresTitle">Prototype Features</string>
+    //Quotespage Content
+    <string name="quote">“When you change your thoughts, remember to also change your world.”—Norman Vincent Peale</string>
+    <string name="quote1">“Success is getting what you want, happiness is wanting what you get.” ―W. P. Kinsella</string>
+    <string name="quote2">“Setting goals is the first step in turning the invisible into the visible.” — Tony Robbins</string>
+    <string name="quote3">“Take the attitude of a student, never be too big to ask questions, never know too much to learn something new.” —Augustine Og Mandino</string>
+    <string name="quote4">“Talent wins games, but teamwork and intelligence win championships.” — Michael Jordan</string>
+    <string name="quote5">“Opportunities dont happen, you create them.” — Chris Grosser</string>
+    <string name="quote6">“Set your goals high, and don’t stop till you get there.” —Bo Jackson</string>
+    <string name="quote7">“If you cant yet do great things, do small things in a great way.” ―Napoleon Hill</string>
+    <string name="quote8">“The greater the difficulty, the more the glory in surmounting it.” ―Epicurus</string>
+    <string name="quote9">“If you don’t risk anything, you risk even more.” —Erica Jong</string>
+    <string name="quote10">“Failure is simply the opportunity to begin again, this time more intelligently.” — Henry Ford</string>
+    //Aboutus Content
+    <string name="missionTitle">Our Mission</string>
+    <string name="mission">Mind Yourself is a mental health application with various features designed to be a daily use application to improve the mental wellbeing and health of the Users. </string>
+    <string name="promiseTitle">We Promise You</string>
+    <string name="author">Karam Qayum.</string>
+    <string name="course">A Final Year student studying Software Engineering. </string>
+    <string name="contact">Contact our Team at 07000000000, or email MindYourself@gmail.com.</string>
+    <string name="promise">Mind Yourself allows you to express yourself without feeling like you are being evaluated. Come use the app in your own time to your own needs and watch that low mood dissapear :)</string>
+
+    //Homepage Content
+    <string name="gaming">Play Games </string>
+    <string name="diary">Write It Down </string>
+    <string name="nhs">Visit NHS Website </string>
+    <string name="recharge">Recharge Your Battery </string>
+    //Homepage Links
+    <string name="diary_link">Click <a href="https://positivepsychology.com/benefits-of-journaling/">here</a> to visit the website</string>
+    <string name="recharge_link">Click <a href="https://www.healthline.com/health/how-to-recharge">here</a> to visit the website</string>
+    <string name="nhs_link">Click <a href="https://www.nhs.uk/nhs-services/mental-health-services/">here</a> to visit the website</string>
+    <string name="game_link">Click <a href="https://www.youngminds.org.uk/young-person/coping-with-life/gaming-and-mental-health/#:~:text=Gaming%2C%20when%20used%20positively%2C%20can,or%20going%20for%20a%20walk.">here</a> to visit the website</string>
+    //Sleep feature Content
+    <string name="less6hours">6 hours or less sleep is not healthy and it is recommended that you get between 7-9 hours rest each night. YOU CAN DO THIS.</string>
+    <string name="sleep7to9">Sleeping between 7 to 9 hours each night is recommended. AMAZING KEEP IT UP.</string>
+    <string name="sleep10ormore">Sleeping more than 10 hours a night can be a sign to underlying issues and can increase risk of health issues. PLEASE AVOID THIS, SET ALARMS</string>
+    //Sleep features Links
+    <string name="sleep_link">More <a href="https://sleepeducation.org/healthy-sleep/healthy-sleep-habits/">Details</a></string>
+    //diary content
+    <string name="enterName">Enter Entry Name</string>
+    <string name="enterDate">Enter Entry Date</string>
+    <string name="enterDesc">Enter Entry Description</string>
+    <string name="entryBtn">Add Entry</string>
+    <string name="readEntry">Read All Entries</string>
+    //music content
+    <string name="moodmusic">Music is known to positively impact your Mood</string>
+    <string name="enjoymusic">SO ENJOY</string>
+    //howtouse Context
+    <string name="howtoapp">How to Use the App</string>
+    <string name="howApptext">Mind Yourself aims to be simple to use, the homepage includes tips for helping your mental health with links to important websites. Features will be described below:</string>
+    <string name="howtoQuote">The Quotes Feature</string>
+    <string name="howQuotetext">In need of motivation, simply open the quotes page press the button and you will see the quote for you. You can press it as many times as you want and get a wide range of quotes.</string>
+    <string name="howMusic">The Music Feature</string>
+    <string name="howMusicText">Ensure you have music files saved to your device. Press the select song button and select the song and you will be able to play, pause and stop whilst watching the calming animation.</string>
+    <string name="howDiary">The Diary Feature</string>
+    <string name="howDiaryText">You will be able to add entries with a title, date and description and write down your feelings and thoughts. You can view all your entries and update/delete them when you need to. Can also use this as a TO DO list.</string>
+    <string name="theFuturetext">Mind Yourself aims to be the go to, daily use app to benefit users mental health. These are just the protoype features in their base forms each will be developed upon, and various other features will be developed</string>
+    <string name="theFuture">The Future</string>
+    <string name="howSleeptext">In this feature you can input your hours of sleep for the past 7 days, do this by passing 7 numbers seperated by , (commas) and press plot. It will show your sleep inputs and calculate your average. You will be informed whether you should sleep more or less. Can also visit the Link for important information regarding sleep,</string>
+    <string name="howSleep">The Sleep Feature</string>
+
+</resources>

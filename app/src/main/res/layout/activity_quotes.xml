@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Quotespage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/LightGrey"
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/card_back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="30dp"
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            app:cardElevation="20dp"
+            android:id="@+id/card_quote"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0"
+            android:outlineAmbientShadowColor="@color/black"
+            app:cardCornerRadius="50dp"
+
+            >
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/text_quotes"
+                style="@style/TextAppearance.Material3.DisplayLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="25sp"
+                android:textStyle="italic"></TextView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    <Button
+        android:id="@+id/press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Press Me"
+        ></Button>
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

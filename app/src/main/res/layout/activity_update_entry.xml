@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".diarydata.UpdateEntryActivity"
+    android:background="@color/LightGrey">
+
+    <!--Edit text to enter entry name-->
+    <EditText
+        android:id="@+id/edtEntryName"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:hint="@string/enterName"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <!--edit text to enter entry date-->
+    <EditText
+        android:id="@+id/edtEntryDate"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:hint="@string/enterDate"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <!--edit text for entry description-->
+
+    <EditText
+        android:id="@+id/edtEntryDetails"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_margin="10dp"
+        android:hint="@string/enterDesc"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <!--button for adding new entry-->
+
+
+    <!--button for updating our entry-->
+    <Button
+        android:id="@+id/idBtnUpdateEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update Entry"
+        android:textAllCaps="false" />
+    <!--button for deleting our entry-->
+    <Button
+        android:id="@+id/BtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Delete Entry"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp"
+    android:background="@drawable/diaryback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <!--text view for our entry name-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--text view for our entry name-->
+            <TextView
+                android:id="@+id/idTVEntryName"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Entry Name"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/purple_500"/>
+
+
+            <!--text view for our entry date-->
+            <TextView
+                android:id="@+id/idTVEntryDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="DATE"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+               android:background="@color/purple_500"/>
+
+        </LinearLayout>
+
+        <!--text view for our entry description-->
+        <TextView
+            android:id="@+id/idTVEntryDescription"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:background="@drawable/diaryback"
+            android:padding="3dp"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

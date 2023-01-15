@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.howto.HowToUseFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Contains details on how to use app -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appCard"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundwhite"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_android_24"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/howtoapp"
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"></TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/LightGrey"></View>
+
+                <TextView
+                    android:id="@+id/howtouseApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/howApptext"
+                    android:textColor="@color/DarkGray"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    <!-- Contains details on how to use quotes feature -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/quoteCard"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circlebackgroundwhite"
+                android:padding="15dp"
+                android:src="@drawable/quotes"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/howtoQuote"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/LightGrey"></View>
+
+            <TextView
+                android:id="@+id/quotesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/howQuotetext"
+                android:textColor="@color/DarkGray"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Contains details on how to use music feature -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/musicCard"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circlebackgroundwhite"
+                android:padding="14dp"
+                android:src="@drawable/music"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/howMusic"
+                android:textColor="@color/purple_500"
+                android:textStyle="bold"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/LightGrey"></View>
+
+            <TextView
+                android:id="@+id/howMusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/howMusicText"
+                android:textColor="@color/DarkGray"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Contains details on how to use diary feature -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/diaryCardd"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circlebackgroundwhite"
+                android:padding="13dp"
+                android:src="@drawable/diary"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/howDiary"
+                android:textColor="@color/purple_500"
+                android:textStyle="bold"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/LightGrey"></View>
+
+            <TextView
+                android:id="@+id/diary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/howDiaryText"
+                android:textColor="@color/DarkGray"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Contains details on how to use sleep feature -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sleepCardd"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circlebackgroundwhite"
+                android:padding="15dp"
+                android:src="@drawable/sleep2"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/howSleep"
+                android:textColor="@color/purple_500"
+                android:textStyle="bold"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/LightGrey"></View>
+
+            <TextView
+                android:id="@+id/sleepText"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/howSleeptext"
+                android:textColor="@color/DarkGray"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Contains details on apps future-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/futureCard"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circlebackgroundwhite"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_lens_blur_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/theFuture"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/LightGrey"></View>
+
+            <TextView
+                android:id="@+id/oon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/theFuturetext"
+                android:textColor="@color/DarkGray"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blankCard"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+        <!-- Your content goes here -->
+
+    </ScrollView>
+
+</LinearLayout>
